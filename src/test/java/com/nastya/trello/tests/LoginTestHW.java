@@ -1,6 +1,5 @@
 package com.nastya.trello.tests;
 
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -23,9 +22,10 @@ public class LoginTestHW extends TestBase {
     }
     @Test
     public void testLogInWithAtlassianAcc2() throws InterruptedException {
+        // app.takeScreenshot();
         app.getSession().clickLoginLink();
         app.getSession().fillLoginFormAtlassianAcc("lanastasiatest@gmail.com", "test1234test");
-        app.getBoardHelper().pause(20000);
+        app.getSession().pause(20000);
         Assert.assertTrue
                 (app.getSession().isAvatarPresentOnHeader());
     }
@@ -33,8 +33,8 @@ public class LoginTestHW extends TestBase {
     @Test(enabled = false)
     public void negativeTestLogInWithAtlassianAcc() throws InterruptedException {
         app.getSession().clickLoginLink();
-        app.getSession().fillLoginFormAtlassianAcc("anastasia", "");
-        app.getBoardHelper().pause(8000);
+        app.getSession().fillLoginFormAtlassianAcc("test", "");
+        app.getSession().pause(8000);
         Assert.assertTrue(app.getSession().isErrorPresent());
         Assert.assertTrue
                 (!app.getSession().isAvatarPresentOnHeader());
@@ -51,3 +51,4 @@ public class LoginTestHW extends TestBase {
 
 
 }
+

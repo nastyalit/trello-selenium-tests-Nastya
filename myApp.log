@@ -1,0 +1,227 @@
+2020-01-26 18:53:41,120 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc2
+2020-01-26 18:54:00,273 ERROR [Test worker] c.n.t.u.Listener [Listener.java:17] testLogInWithAtlassianAcc2Failed
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=[href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: driver.version: RemoteWebDriver
+2020-01-26 18:54:00,280 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:24] Stop test 
+2020-01-29 15:15:38,161 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 10:54:12,684 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc with parameters []
+2020-02-02 10:55:11,250 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testLogInWithAtlassianAcc
+ !!! FAILED !!!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+2020-02-02 10:55:11,916 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580633711849.png
+2020-02-02 10:55:11,920 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc
+2020-02-02 10:55:11,925 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc2 with parameters []
+2020-02-02 10:55:32,182 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testLogInWithAtlassianAcc2
+ !!! FAILED !!!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '192.168.11.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\nastya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 52f0ad21879bcc6c53427dd0a7cf8f55
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-02 10:55:32,611 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580633732605.png
+2020-02-02 10:55:32,612 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc2
+2020-02-02 11:03:48,184 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 11:04:25,978 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:15] avatar before:
+2020-02-02 11:04:29,581 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580634269557.png
+2020-02-02 11:04:45,830 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testChangeAvatar
+ !!! FAILED !!!
+org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\resources\DSC_4659
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '192.168.11.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\nastya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a4fb25fa4ff56aae4c8d371cd08cac6a
+2020-02-02 11:04:46,225 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580634286218.png
+2020-02-02 11:04:46,227 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testChangeAvatar
+2020-02-02 11:13:47,304 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 11:14:25,491 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:15] avatar before:
+2020-02-02 11:14:29,398 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580634869371.png
+2020-02-02 11:14:45,556 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testChangeAvatar
+ !!! FAILED !!!
+org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\resources\DSC_4659
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '192.168.11.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\nastya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af7748ddbb26e9acfb23c22d90681091
+2020-02-02 11:14:45,946 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580634885942.png
+2020-02-02 11:14:45,948 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testChangeAvatar
+2020-02-02 11:18:18,644 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc with parameters []
+2020-02-02 11:19:07,157 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testLogInWithAtlassianAcc PASSED
+2020-02-02 11:19:07,159 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc
+2020-02-02 11:19:07,165 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc2 with parameters []
+2020-02-02 11:19:49,349 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testLogInWithAtlassianAcc2 PASSED
+2020-02-02 11:19:49,350 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc2
+2020-02-02 11:25:43,404 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeader with parameters []
+2020-02-02 11:26:40,925 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeader PASSED
+2020-02-02 11:26:40,927 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeader
+2020-02-02 11:26:40,935 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"1qNew Board NameLorem ipsum dolor sit amet'}]
+2020-02-02 11:26:57,857 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-02 11:26:57,859 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeaderFromCSV
+2020-02-02 11:26:57,859 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-02-02 11:27:15,314 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-02 11:27:15,315 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeaderFromCSV
+2020-02-02 11:27:15,316 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"'}]
+2020-02-02 11:27:32,239 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-02 11:27:32,240 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeaderFromCSV
+2020-02-02 11:27:32,241 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testFirstBoardDeletion1 with parameters []
+2020-02-02 11:27:38,328 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testFirstBoardDeletion1 PASSED
+2020-02-02 11:27:38,330 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testFirstBoardDeletion1
+2020-02-02 11:27:38,333 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testFirstBoardDeletion2 with parameters []
+2020-02-02 11:28:21,171 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testFirstBoardDeletion2 PASSED
+2020-02-02 11:28:21,171 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testFirstBoardDeletion2
+2020-02-02 11:28:21,173 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 11:28:21,210 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:15] avatar before:
+2020-02-02 11:28:21,644 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580635701622.png
+2020-02-02 11:28:23,489 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testChangeAvatar
+ !!! FAILED !!!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+2020-02-02 11:28:24,051 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580635704044.png
+2020-02-02 11:28:24,053 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testChangeAvatar
+2020-02-02 11:28:24,055 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogIn with parameters []
+2020-02-02 11:28:34,129 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testLogIn
+ !!! FAILED !!!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '192.168.11.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\nastya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8f3b7f994bb791ab2bcfd333b742033
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-02 11:28:34,553 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580635714547.png
+2020-02-02 11:28:34,554 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogIn
+2020-02-02 11:28:34,556 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc with parameters []
+2020-02-02 11:29:15,596 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testLogInWithAtlassianAcc PASSED
+2020-02-02 11:29:15,598 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc
+2020-02-02 11:29:15,600 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc2 with parameters []
+2020-02-02 11:29:54,670 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testLogInWithAtlassianAcc2 PASSED
+2020-02-02 11:29:54,671 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc2
+2020-02-02 11:29:54,673 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeader with parameters []
+2020-02-02 11:30:16,950 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] teamCreationTestFromHeader PASSED
+2020-02-02 11:30:16,952 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeader
+2020-02-02 11:30:16,958 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeaderWithDP with parameters [name DP, decsription DP]
+2020-02-02 11:30:38,878 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithDP PASSED
+2020-02-02 11:30:38,879 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeaderWithDP
+2020-02-02 11:30:38,880 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeaderWithDP with parameters [DPn, ]
+2020-02-02 11:31:00,762 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithDP PASSED
+2020-02-02 11:31:00,763 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeaderWithDP
+2020-02-02 11:31:00,764 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeaderWithNameOnly with parameters []
+2020-02-02 11:31:32,407 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] teamCreationTestFromHeaderWithNameOnly
+ !!! FAILED !!!
+java.lang.AssertionError: expected [5] but found [0]
+2020-02-02 11:31:32,821 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580635892816.png
+2020-02-02 11:31:32,822 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeaderWithNameOnly
+2020-02-02 11:42:38,039 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 11:43:17,454 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:15] avatar before:
+2020-02-02 11:43:22,506 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580636602482.png
+2020-02-02 11:43:39,705 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testChangeAvatar
+ !!! FAILED !!!
+org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\resources\DSC_4659
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '192.168.11.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\nastya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 59d3a1e869ce3084a6d7b7b71b9d3d9a
+2020-02-02 11:43:40,214 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580636620207.png
+2020-02-02 11:43:40,216 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testChangeAvatar
+2020-02-02 11:52:32,276 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 11:53:11,163 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:15] avatar before:
+2020-02-02 11:53:15,037 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580637194983.png
+2020-02-02 11:54:00,374 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:21] avatar after:
+2020-02-02 11:54:00,836 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580637240829.png
+2020-02-02 11:54:00,839 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testChangeAvatar PASSED
+2020-02-02 11:54:00,840 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testChangeAvatar
+2020-02-02 19:24:04,159 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeader with parameters []
+2020-02-02 19:25:14,855 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeader PASSED
+2020-02-02 19:25:14,855 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeader
+2020-02-02 19:25:14,866 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"1qNew Board NameLorem ipsum dolor sit amet'}]
+2020-02-02 19:25:32,048 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-02 19:25:32,049 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeaderFromCSV
+2020-02-02 19:25:32,050 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-02-02 19:25:49,695 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-02 19:25:49,695 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeaderFromCSV
+2020-02-02 19:25:49,696 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"'}]
+2020-02-02 19:26:06,155 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSV PASSED
+2020-02-02 19:26:06,156 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testBoardCreationFromHeaderFromCSV
+2020-02-02 19:26:06,157 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testFirstBoardDeletion1 with parameters []
+2020-02-02 19:26:12,174 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testFirstBoardDeletion1 PASSED
+2020-02-02 19:26:12,175 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testFirstBoardDeletion1
+2020-02-02 19:26:12,176 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testFirstBoardDeletion2 with parameters []
+2020-02-02 19:26:54,947 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testFirstBoardDeletion2 PASSED
+2020-02-02 19:26:54,949 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testFirstBoardDeletion2
+2020-02-02 19:26:54,951 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testChangeAvatar with parameters []
+2020-02-02 19:26:55,003 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:15] avatar before:
+2020-02-02 19:26:55,820 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664415793.png
+2020-02-02 19:27:33,971 INFO [Test worker] c.n.t.t.TestBase [ChangeUserAvatar.java:21] avatar after:
+2020-02-02 19:27:34,369 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664454364.png
+2020-02-02 19:27:34,370 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testChangeAvatar PASSED
+2020-02-02 19:27:34,371 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testChangeAvatar
+2020-02-02 19:27:34,373 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogIn with parameters []
+2020-02-02 19:27:44,539 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] testLogIn
+ !!! FAILED !!!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NASTYABOOK', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\nastya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b908220a3a7984ef5636ab508981641
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-02 19:27:44,969 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664464960.png
+2020-02-02 19:27:44,971 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogIn
+2020-02-02 19:27:44,974 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc with parameters []
+2020-02-02 19:28:27,838 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testLogInWithAtlassianAcc PASSED
+2020-02-02 19:28:27,839 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc
+2020-02-02 19:28:27,840 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test testLogInWithAtlassianAcc2 with parameters []
+2020-02-02 19:29:09,419 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] testLogInWithAtlassianAcc2 PASSED
+2020-02-02 19:29:09,421 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test testLogInWithAtlassianAcc2
+2020-02-02 19:29:09,422 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeader with parameters []
+2020-02-02 19:29:41,626 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] teamCreationTestFromHeader
+ !!! FAILED !!!
+java.lang.AssertionError: expected [6] but found [0]
+2020-02-02 19:29:42,052 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664582044.png
+2020-02-02 19:29:42,054 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeader
+2020-02-02 19:29:42,095 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeaderWithDP with parameters [name DP, decsription DP]
+2020-02-02 19:30:14,229 ERROR [Test worker] c.n.t.u.Listener [Listener.java:21] teamCreationTestFromHeaderWithDP
+ !!! FAILED !!!
+java.lang.AssertionError: expected [1] but found [7]
+2020-02-02 19:30:14,788 INFO [Test worker] c.n.t.m.ApplicationManager [ApplicationManager.java:80] 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664614776.png
+2020-02-02 19:30:14,790 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeaderWithDP
+2020-02-02 19:30:14,792 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeaderWithDP with parameters [DPn, ]
+2020-02-02 19:30:36,646 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithDP PASSED
+2020-02-02 19:30:36,647 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeaderWithDP
+2020-02-02 19:30:36,649 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:19] Start test teamCreationTestFromHeaderWithNameOnly with parameters []
+2020-02-02 19:30:58,454 INFO [Test worker] c.n.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithNameOnly PASSED
+2020-02-02 19:30:58,458 INFO [Test worker] c.n.t.t.TestBase [TestBase.java:25] Stop test teamCreationTestFromHeaderWithNameOnly

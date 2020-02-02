@@ -10,28 +10,28 @@ public class BoardDeletionTests extends TestBase {
         if (!app.getSession().isAvatarPresentOnHeader()) {
             app.getSession().loginAtlassianAcc();
         }
-        if (!app.getBoardHelper().isThereBoard()) {
-            app.getBoardHelper().createBoard();
+        if (!app.getBoard().isThereBoard()) {
+            app.getBoard().createBoard();
         }
     }
 
     @Test
     public void testFirstBoardDeletion1() throws InterruptedException {
-        app.getBoardHelper().openFirstBoard();
-        app.getBoardHelper().clickOpenMore();
-        app.getBoardHelper().startCloseBoard();
-        app.getBoardHelper().confirmCloseBoard();
-        app.getBoardHelper().permanentlyDeleteBoard();
+        app.getBoard().openFirstBoard();
+        app.getBoard().clickOpenMore();
+        app.getBoard().startCloseBoard();
+        app.getBoard().confirmCloseBoard();
+        app.getBoard().permanentlyDeleteBoard();
     }
 
     @Test
     public void testFirstBoardDeletion2() throws InterruptedException {
-        app.getBoardHelper().openFirstBoard();
+        app.getBoard().openFirstBoard();
         app.getBoard().pause(10000);
-        app.getBoardHelper().clickOpenMore();
-        app.getBoardHelper().startCloseBoard();
-        app.getBoardHelper().confirmCloseBoard();
-        app.getSession().returnToHomePage();
+        app.getBoard().clickOpenMore();
+        app.getBoard().startCloseBoard();
+        app.getBoard().confirmCloseBoard();
+        app.getHeader().returnToHomePage();
     }
 
 }

@@ -11,7 +11,7 @@ public class BoardHelper  extends  HelperBase{
     }
 
     public int getBoardsCount() {
-        return wd.findElements(By.cssSelector("ul.boards-page-board-section-list li")).size()-1;
+        return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size()-1;
     }
 
     public void confirmBoardCreation() {
@@ -22,6 +22,8 @@ public class BoardHelper  extends  HelperBase{
     public void fillBoardForm(BoardData boardData) {
         type(By.cssSelector("[data-test-id='create-board-title-input']"),
                 boardData.getBoardName());
+        click(By.cssSelector("[name=down]"));
+        click(By.xpath("//*[contains(text(),'No team')]"));
     }
 
     public void selectCreateBoardFromDropDown() {
@@ -32,7 +34,7 @@ public class BoardHelper  extends  HelperBase{
     public void createBoard() throws InterruptedException {
         clickOnPlusButton();
         selectCreateBoardFromDropDown();
-        fillBoardForm(new BoardData("qa22" + System.currentTimeMillis()));
+        fillBoardForm(new BoardData().setBoardName("qa22" + System.currentTimeMillis()));
         confirmBoardCreation();
         pause(15000);
         returnToHomePage();
