@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nastya.trello.tests.LoginTestHW" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-02T17:27:48" hostname="NastyaBook" time="81.283">
+  <properties/>
+  <testcase name="testLogInWithAtlassianAcc" classname="com.nastya.trello.tests.LoginTestHW" time="39.702"/>
+  <testcase name="testLogInWithAtlassianAcc2" classname="com.nastya.trello.tests.LoginTestHW" time="35.998"/>
+  <system-out><![CDATA[19:27:44.974 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testLogInWithAtlassianAcc with parameters []
+19:28:27.838 [Test worker] INFO  com.nastya.trello.utils.Listener - testLogInWithAtlassianAcc PASSED
+19:28:27.839 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testLogInWithAtlassianAcc
+19:28:27.840 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testLogInWithAtlassianAcc2 with parameters []
+19:29:09.419 [Test worker] INFO  com.nastya.trello.utils.Listener - testLogInWithAtlassianAcc2 PASSED
+19:29:09.421 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testLogInWithAtlassianAcc2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

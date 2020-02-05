@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nastya.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-02T17:26:06" hostname="NastyaBook" time="48.704">
+  <properties/>
+  <testcase name="testFirstBoardDeletion1" classname="com.nastya.trello.tests.BoardDeletionTests" time="5.931"/>
+  <testcase name="testFirstBoardDeletion2" classname="com.nastya.trello.tests.BoardDeletionTests" time="16.354"/>
+  <system-out><![CDATA[19:26:06.157 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testFirstBoardDeletion1 with parameters []
+19:26:12.174 [Test worker] INFO  com.nastya.trello.utils.Listener - testFirstBoardDeletion1 PASSED
+19:26:12.175 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testFirstBoardDeletion1
+19:26:12.176 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testFirstBoardDeletion2 with parameters []
+19:26:54.947 [Test worker] INFO  com.nastya.trello.utils.Listener - testFirstBoardDeletion2 PASSED
+19:26:54.949 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testFirstBoardDeletion2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

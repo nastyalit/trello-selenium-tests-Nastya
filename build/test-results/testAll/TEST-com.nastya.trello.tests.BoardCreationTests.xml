@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nastya.trello.tests.BoardCreationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-02T17:24:45" hostname="NastyaBook" time="80.903">
+  <properties/>
+  <testcase name="testBoardCreationFromHeader" classname="com.nastya.trello.tests.BoardCreationTests" time="29.601"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[0](BoardData boardName='&quot;1qNew Board NameLorem ipsum dolor sit amet'})" classname="com.nastya.trello.tests.BoardCreationTests" time="17.14"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[1](BoardData boardName='&quot;1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'})" classname="com.nastya.trello.tests.BoardCreationTests" time="17.586"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[2](BoardData boardName='&quot;'})" classname="com.nastya.trello.tests.BoardCreationTests" time="16.409"/>
+  <system-out><![CDATA[19:24:04.159 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testBoardCreationFromHeader with parameters []
+19:25:14.855 [Test worker] INFO  com.nastya.trello.utils.Listener - testBoardCreationFromHeader PASSED
+19:25:14.855 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testBoardCreationFromHeader
+19:25:14.866 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"1qNew Board NameLorem ipsum dolor sit amet'}]
+19:25:32.048 [Test worker] INFO  com.nastya.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+19:25:32.049 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testBoardCreationFromHeaderFromCSV
+19:25:32.050 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+19:25:49.695 [Test worker] INFO  com.nastya.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+19:25:49.695 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testBoardCreationFromHeaderFromCSV
+19:25:49.696 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData boardName='"'}]
+19:26:06.155 [Test worker] INFO  com.nastya.trello.utils.Listener - testBoardCreationFromHeaderFromCSV PASSED
+19:26:06.156 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testBoardCreationFromHeaderFromCSV
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

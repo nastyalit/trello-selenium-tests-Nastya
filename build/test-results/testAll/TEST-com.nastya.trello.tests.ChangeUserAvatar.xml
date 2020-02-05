@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nastya.trello.tests.ChangeUserAvatar" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T17:26:55" hostname="NastyaBook" time="39.367">
+  <properties/>
+  <testcase name="testChangeAvatar" classname="com.nastya.trello.tests.ChangeUserAvatar" time="39.367"/>
+  <system-out><![CDATA[19:26:54.951 [Test worker] INFO  com.nastya.trello.tests.TestBase - Start test testChangeAvatar with parameters []
+19:26:55.003 [Test worker] INFO  com.nastya.trello.tests.TestBase - avatar before:
+19:26:55.820 [Test worker] INFO  c.n.t.manager.ApplicationManager - 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664415793.png
+19:27:33.971 [Test worker] INFO  com.nastya.trello.tests.TestBase - avatar after:
+19:27:34.369 [Test worker] INFO  c.n.t.manager.ApplicationManager - 
+Created screenshot: C:\Users\nastya\Documents\GitHub\trello-selenium-tests-Nastya\src\test\logs\screenshots\screen-1580664454364.png
+19:27:34.370 [Test worker] INFO  com.nastya.trello.utils.Listener - testChangeAvatar PASSED
+19:27:34.371 [Test worker] INFO  com.nastya.trello.tests.TestBase - Stop test testChangeAvatar
+]]></system-out>
+  <system-err><![CDATA[[1580664419.871][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+</testsuite>
